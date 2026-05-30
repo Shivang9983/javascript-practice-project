@@ -34,9 +34,8 @@ A speech-to-text web application built using JavaScript and the Web Speech API.
 3. Speak into your microphone.
 4. Your speech will be converted into text.
 5. Download your notes if needed.
+6. Always using chrome browser to live this project 
 
 ---
 
-## 👨‍💻 Author
-
-Shivang Kumar
+## 👨‍💻 Made by Shivang Kumar Singh
