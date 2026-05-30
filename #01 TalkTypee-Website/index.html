@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>TalkType</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <header class="title-block">
+            <div class="brand">
+                <div class="logo" aria-hidden="true">
+                    <span class="logo-wave"></span>
+                    <span class="logo-dot"></span>
+                </div>
+                <div>
+                    <span class="eyebrow">Voice Notes</span>
+                    <h1 class="header">TalkType</h1>
+                </div>
+            </div>
+            <p class="subtext">Speak with your microphone or type your notes directly below.</p>
+        </header>
+        <div class="app-grid">
+            <section class="panel controls-panel">
+                <div class="settings">
+                    <div class="language">
+                        <label class="label" for="language">Listen & Speak Language</label>
+                        <select id="language"></select>
+                        <p class="hint" id="voiceHint">The selected language will be used for both listening and speaking.</p>
+                    </div>
+                </div>
+
+                <button class="btn record" type="button">
+                    <div class="icon">
+                        <i class='bx bx-microphone'></i>
+                        <i class='bx bx-loader bx-spin'></i>
+                    </div>
+                    <span class="btn-label">Start Listening</span>
+                </button>
+            </section>
+
+            <section class="panel editor-panel">
+                <label class="label" for="result">Your Text</label>
+                <textarea
+                    class="result"
+                    id="result"
+                    spellcheck="false"
+                    placeholder="Type here or tap Start Listening to convert your voice into text..."
+                ></textarea>
+
+                <div class="buttons">
+                    <button class="btn clear" type="button">Clear</button>
+                    <button class="btn speak" type="button" disabled>Speak</button>
+                    <button class="btn download" type="button" disabled>Download</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
