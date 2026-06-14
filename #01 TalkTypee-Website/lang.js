@@ -293,28 +293,4 @@ const languages = [
     native: "Español",
     code: "es",
   },
-  {
-    no: "50",
-    name: "Swahili",
-    native: "Kiswahili",
-    code: "sw",
-  },
-  {
-    no: "51",
-    name: "Swedish",
-    native: "Svenska",
-    code: "sv",
-  },
-  {
-    no: "52",
-    name: "Thai",
-    native: "ไทย",
-    code: "th",
-  },
-  {
-    no: "53",
-    name: "Turkish",
-    native: "Türkçe",
-    code: "tr",
-  },
  
