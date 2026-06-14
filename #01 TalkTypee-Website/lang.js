@@ -317,34 +317,4 @@ const languages = [
     native: "Türkçe",
     code: "tr",
   },
-  {
-    no: "54",
-    name: "Ukrainian",
-    native: "Українська",
-    code: "uk",
-  },
-  {
-    no: "55",
-    name: "Urdu",
-    native: "اردو",
-    code: "ur",
-  },
-  {
-    no: "56",
-    name: "Vietnamese",
-    native: "Tiếng Việt",
-    code: "vi",
-  },
-  {
-    no: "57",
-    name: "Welsh",
-    native: "Cymraeg",
-    code: "cy",
-  },
-  {
-    no: "58",
-    name: "Yiddish",
-    native: "ייִדיש",
-    code: "yi",
-  },
-];
+ 
