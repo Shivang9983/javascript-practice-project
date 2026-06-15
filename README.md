@@ -16,6 +16,7 @@ This repository documents my learning journey through hands-on projects built wi
 | No. | Project          | Status      |
 | --- | ---------------- | ----------- |
 | 01  | TalkType Website | ✅ Completed |
+| 02  | Image Genration  | ✅ Completed |
 
 ---
 
@@ -30,7 +31,7 @@ This repository documents my learning journey through hands-on projects built wi
 
 ## 📈 Progress
 
-Current Projects Completed: **1**
+Current Projects Completed: **2**
 
 This repository will continue to grow as I build more JavaScript projects and explore advanced concepts.
 
